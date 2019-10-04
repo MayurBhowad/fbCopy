@@ -16,17 +16,7 @@ export class AppComponent {
   day;
   year;
 
-  addUser(
-    fname,
-    lname,
-    emailphone,
-    reemailphone,
-    password,
-    gender,
-    month,
-    day,
-    year
-  ) {
+  addUser(fname, lname, emailphone, reemailphone, password, gender, month, day, year) {
     this.fname = fname;
     this.lname = lname;
     this.emailphone = emailphone;
