@@ -15,7 +15,7 @@ export class AppComponent {
   month;
   day;
   year;
-  date = this.dateFun();
+  date;
 
   addUser(fname, lname, emailphone, reemailphone, password, gender, month, day, year) {
     this.fname = fname;
@@ -27,6 +27,7 @@ export class AppComponent {
     this.month = month;
     this.day = day;
     this.year = year;
+    this.date = this.dateFun();
 
     console.log(this.fname);
     console.log(this.lname);
